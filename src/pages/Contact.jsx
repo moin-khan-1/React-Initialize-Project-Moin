@@ -267,27 +267,3 @@ function Contact() {
 
 export default Contact;
 
-{/* <div style={{
-                maxWidth: '1200px',
-                margin: '0 auto',
-                padding: '0 20px'
-            }}>
-                <div style={emergencyBoxStyle}>
-
-                    <h2 style={{ color: '#d62828', marginBottom: '15px' }}>
-                        🚑 Emergency Contacts
-                    </h2>
-
-                    <p style={{ marginBottom: '10px' }}>
-                        <strong>Ambulance:</strong> 1122
-                    </p>
-
-                    <p style={{ marginBottom: '10px' }}>
-                        <strong>Emergency Helpline:</strong> +92 300 9876543
-                    </p>
-
-                    <p>
-                        <strong>Hospital Support:</strong> +92 321 1234567
-                    </p>
-                </div>
-            </div> */}
