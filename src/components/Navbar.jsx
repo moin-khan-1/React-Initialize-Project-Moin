@@ -5,68 +5,88 @@ function Navbar() {
     const navStyle = {
         backgroundColor: '#0077b6',
         color: 'white',
-        padding: '10px',
-        textAlign: 'center',
+        padding: '15px 40px',
+        display: 'flex',
+        justifyContent: 'space-between',
         alignItems: 'center',
-        display: "flex",
-        gap: "15px"
-
+        flexWrap: 'wrap',
+        position: 'sticky',
+        top: '0',
+        zIndex: '1000',
+        boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
+    };
+    const leftSectionStyle = {
+        display: 'flex',
+        alignItems: 'center',
+        gap: '12px'
     };
 
     const leftStyle = {
         display: 'flex',
         alignItems: 'center',
-
-
     };
 
     const logoStyle = {
         borderRadius: '10px'
     };
-
     const titleStyle = {
-        display: 'flex',
+        marginLeft: 'auto',
+        fontSize: '24px',
+        fontWeight: '700',
+        letterSpacing: '1px'
     };
     const linksStyle = {
         display: 'flex',
-        gap: '25px',
-        marginLeft: 'auto',
-        fontWeight: 'bold',
-        cursor: 'pointer',
-        color: "white"
+        gap: '20px',
+        alignItems: 'center',
+        fontWeight: '600'
     };
 
     return (
         <div style={navStyle}>
-            <div style={leftStyle}>
-                <img
-                    src="/images/logonav.png"
-                    alt='logo'
-                    width={60}
-                    style={logoStyle}
-                />
-            </div>
-            <div>
-                <h2 style={{ titleStyle, fontSize: 20 }}>Doctor's On Call</h2>
+            <div style={leftSectionStyle}>
+                <div style={leftStyle}>
+                    <img
+                        src="/images/logonav.png"
+                        alt='logo'
+                        width={60}
+                        style={logoStyle}
+                    />
+                </div>
+                <div>
+                    <h2 style={{ ...titleStyle, fontSize: 20 }}>Doctor's On Call</h2>
+                </div>
             </div>
             <div style={linksStyle}>
-                <Link
+                {/* <Link
                     to="/" style={{ color: "white", textDecoration: "none" }} >
+                    Home
+                </Link> */}
+                <Link
+                    to="/"
+                    style={{ color: 'white', textDecoration: 'none', transition: '0.4s' }}
+                    onMouseEnter={(e) => e.target.style.color = '#383838'}
+                    onMouseLeave={(e) => e.target.style.color = 'white'}>
                     Home
                 </Link>
                 <Link
-                    to="/Doctors" style={{ color: "white", textDecoration: "none" }} >
+                    to="/doctors" style={{ color: 'white', textDecoration: 'none', transition: '0.4s' }}
+                    onMouseEnter={(e) => e.target.style.color = '#383838'}
+                    onMouseLeave={(e) => e.target.style.color = 'white'}>
                     Doctors
                 </Link>
                 <Link
-                    to="/About" style={{ color: "white", textDecoration: "none" }} >
+                    to="/about" style={{ color: 'white', textDecoration: 'none', transition: '0.4s' }}
+                    onMouseEnter={(e) => e.target.style.color = '#383838'}
+                    onMouseLeave={(e) => e.target.style.color = 'white'}>
                     About
                 </Link>
-
-
-                {/* <span>Home</span>
-                <span>Doctors</span>
-                <span>About</span> */}
+                <Link
+                    to="/contact" style={{ color: 'white', textDecoration: 'none', transition: '0.4s' }}
+                    onMouseEnter={(e) => e.target.style.color = '#383838'}
+                    onMouseLeave={(e) => e.target.style.color = 'white'}>
+                    Contact
+                </Link>
 
             </div>
 

@@ -4,71 +4,102 @@ const doctors = [
         id: 1,
         name: "Dr Amna",
         speciality: "Dermatologist",
-        address: "Hospital",
+        qualification: "MBBS, FCPS",
+        experience: "7 Years Experience",
+        timing: "Mon - Sat | 9 AM - 5 PM",
+        address: "City Hospital Karachi",
         image: "/images/lady1.webp"
     },
+
     {
 
         id: 2,
         name: "Dr Ahsan",
-        speciality: "Chil Specialist",
-        address: "Hospital",
-        image: "/images/male5.jpg"
+        speciality: "Child Specialist",
+        qualification: "MBBS, FCPS",
+        experience: "7 Years Experience",
+        timing: "Mon - Sat | 9 AM - 5 PM",
+        address: "City Hospital Karachi",
+        image: "/images/male9.jpg"
     },
     {
         id: 3,
         name: "Dr Aaliya",
         speciality: "Dentist",
-        address: "Hospital",
+        qualification: "MBBS, FCPS",
+        experience: "7 Years Experience",
+        timing: "Mon - Sat | 9 AM - 5 PM",
+        address: "City Hospital Karachi",
         image: "/images/lady6.png"
     },
     {
         id: 4,
         name: "Dr Khan",
         speciality: "ENT Specialist",
-        address: "Hospital",
+        qualification: "MBBS, FCPS",
+        experience: "7 Years Experience",
+        timing: "Mon - Sat | 9 AM - 5 PM",
+        address: "City Hospital Karachi",
         image: "/images/male4.webp"
     },
     {
         id: 5,
         name: "Dr Agha",
         speciality: "Neurosurgeon",
-        address: "Hospital",
+        qualification: "MBBS, FCPS",
+        experience: "7 Years Experience",
+        timing: "Mon - Sat | 9 AM - 5 PM",
+        address: "City Hospital Karachi",
         image: "/images/male3.jpg"
     },
     {
         id: 6,
         name: "Dr Naila",
         speciality: "General Physician",
-        address: "Hospital",
+        qualification: "MBBS, FCPS",
+        experience: "7 Years Experience",
+        timing: "Mon - Sat | 9 AM - 5 PM",
+        address: "City Hospital Karachi",
         image: "/images/lady2.jpg"
     },
     {
         id: 7,
         name: "Dr Falak",
         speciality: "Family Medicine Doctor",
-        address: "Hospital",
+        qualification: "MBBS, FCPS",
+        experience: "7 Years Experience",
+        timing: "Mon - Sat | 9 AM - 5 PM",
+        address: "City Hospital Karachi",
         image: "/images/lady.avif"
     },
     {
         id: 8,
         name: "Dr Raheel",
         speciality: "General Surgeon",
-        address: "Hospital",
+        qualification: "MBBS, FCPS",
+        experience: "7 Years Experience",
+        timing: "Mon - Sat | 9 AM - 5 PM",
+        address: "City Hospital Karachi",
         image: "/images/male2.avif"
     },
     {
         id: 9,
         name: "Dr Gul",
         speciality: "Oncologist",
-        address: "Hospital",
+        qualification: "MBBS, FCPS",
+        experience: "7 Years Experience",
+        timing: "Mon - Sat | 9 AM - 5 PM",
+        address: "City Hospital Karachi",
         image: "/images/male1.jpg"
     },
     {
         id: 10,
         name: "Dr Ali",
         speciality: "Orthopedic Surgeon",
-        address: "Hospital",
+        qualification: "MBBS, FCPS",
+        experience: "7 Years Experience",
+        timing: "Mon - Sat | 9 AM - 5 PM",
+        address: "City Hospital Karachi",
         image: "/images/male6.jpg"
 
     },
@@ -76,7 +107,10 @@ const doctors = [
         id: 11,
         name: "Dr jeni",
         speciality: "Pediatrist",
-        address: "Hospital",
+        qualification: "MBBS, FCPS",
+        experience: "7 Years Experience",
+        timing: "Mon - Sat | 9 AM - 5 PM",
+        address: "City Hospital Karachi",
         image: "/images/lady4.webp"
 
     },
@@ -84,7 +118,10 @@ const doctors = [
         id: 12,
         name: "Dr Anis",
         speciality: "Pulmonologist",
-        address: "Hospital",
+        qualification: "MBBS, FCPS",
+        experience: "7 Years Experience",
+        timing: "Mon - Sat | 9 AM - 5 PM",
+        address: "City Hospital Karachi",
         image: "/images/images.jpg"
 
     },
@@ -92,7 +129,10 @@ const doctors = [
         id: 13,
         name: "Dr Alvi",
         speciality: "Plastic Surgeon",
-        address: "Hospital",
+        qualification: "MBBS, FCPS",
+        experience: "7 Years Experience",
+        timing: "Mon - Sat | 9 AM - 5 PM",
+        address: "City Hospital Karachi",
         image: "/images/male8.avif"
 
     },
@@ -100,7 +140,10 @@ const doctors = [
         id: 14,
         name: "Dr Sanam",
         speciality: "Physiotherapist",
-        address: "Hospital",
+        qualification: "MBBS, FCPS",
+        experience: "7 Years Experience",
+        timing: "Mon - Sat | 9 AM - 5 PM",
+        address: "City Hospital Karachi",
         image: "/images/lady5.jpg"
 
     },
@@ -108,7 +151,10 @@ const doctors = [
         id: 15,
         name: "Dr Areena",
         speciality: "Hematologist",
-        address: "Hospital",
+        qualification: "MBBS, FCPS",
+        experience: "7 Years Experience",
+        timing: "Mon - Sat | 9 AM - 5 PM",
+        address: "City Hospital Karachi",
         image: "/images/lady3.jpg"
 
     },
@@ -116,15 +162,21 @@ const doctors = [
         id: 16,
         name: "Dr Bilal",
         speciality: "Allergy Specialist",
-        address: "Hospital",
-        image: "/images/male9.jpg"
+        qualification: "MBBS, FCPS",
+        experience: "7 Years Experience",
+        timing: "Mon - Sat | 9 AM - 5 PM",
+        address: "City Hospital Karachi",
+        image: "/images/male5.jpg"
 
     },
     {
         id: 17,
         name: "Dr Salik",
         speciality: "Radiologist",
-        address: "Hospital",
+        qualification: "MBBS, FCPS",
+        experience: "7 Years Experience",
+        timing: "Mon - Sat | 9 AM - 5 PM",
+        address: "City Hospital Karachi",
         image: "/images/male10.jpg"
 
     },
@@ -132,7 +184,10 @@ const doctors = [
         id: 18,
         name: "Dr Subhan",
         speciality: "Fertility Specialist",
-        address: "Hospital",
+        qualification: "MBBS, FCPS",
+        experience: "7 Years Experience",
+        timing: "Mon - Sat | 9 AM - 5 PM",
+        address: "City Hospital Karachi",
         image: "/images/male11.jpeg"
 
     },
